@@ -23,6 +23,7 @@ import br.com.santanderdevweek.presentation.components.AppTopBar
 import br.com.santanderdevweek.presentation.components.Header
 import br.com.santanderdevweek.presentation.theme.SantanderDevWeekTheme
 import androidx.constraintlayout.compose.ConstraintLayout
+import br.com.santanderdevweek.domain.mock.mockSantander
 import br.com.santanderdevweek.domain.models.Santander
 import br.com.santanderdevweek.presentation.components.BalanceCard
 import br.com.santanderdevweek.presentation.components.MenuItems
@@ -155,6 +156,6 @@ fun MainApp(santander: Santander) =
 @Composable
 fun SantanderPreview() {
     SantanderDevWeekTheme {
-        //MainApp()
+        MainApp(mockSantander)
     }
 }

@@ -54,6 +54,7 @@ dependencies {
 
     implementation(project(":libraries:network"))
     implementation(project(":libraries:extensions"))
+    implementation(project(":libraries:testing"))
 
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")

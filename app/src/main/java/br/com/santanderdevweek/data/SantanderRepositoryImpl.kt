@@ -1,10 +1,7 @@
 package br.com.santanderdevweek.data
 
-import br.com.santanderdevweek.data.mapper.toAccount
 import br.com.santanderdevweek.data.mapper.toSantander
-import br.com.santanderdevweek.data.models.AccountResponse
 import br.com.santanderdevweek.data.models.SantanderResponse
-import br.com.santanderdevweek.domain.models.Account
 import br.com.santanderdevweek.domain.models.Santander
 import br.com.santanderdevweek.domain.repository.SantanderRepository
 import br.com.santanderdevweek.extensions.network.toResponse

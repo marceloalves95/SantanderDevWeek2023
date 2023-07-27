@@ -30,7 +30,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import br.com.santanderdevweek.domain.mock.Mocks
+import br.com.santanderdevweek.domain.mock.mockSantander
 import br.com.santanderdevweek.domain.models.News
 import br.com.santanderdevweek.presentation.theme.SantanderDevWeekTheme
 import br.com.santanderdevweek.presentation.theme.Spacing_1
@@ -123,6 +123,6 @@ fun NewsItem(news: News) {
 @Composable
 fun NewsPaperAppPreview() {
     SantanderDevWeekTheme {
-        NewsPagerApp(news = Mocks.newsList)
+        NewsPagerApp(news = mockSantander.news)
     }
 }

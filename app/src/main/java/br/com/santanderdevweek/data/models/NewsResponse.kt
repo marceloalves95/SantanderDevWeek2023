@@ -6,6 +6,8 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class NewsResponse(
+    @SerializedName("id")
+    val id:Int,
     @SerializedName("icon")
     val icon: String,
     @SerializedName("description")

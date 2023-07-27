@@ -13,7 +13,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import br.com.santanderdevweek.domain.mock.Mocks
+import br.com.santanderdevweek.domain.mock.mockFeature
+import br.com.santanderdevweek.domain.mock.mockSantander
 import br.com.santanderdevweek.domain.models.Feature
 import br.com.santanderdevweek.presentation.theme.SantanderDevWeekTheme
 import br.com.santanderdevweek.presentation.theme.Spacing_1
@@ -60,6 +61,6 @@ fun MenuItems(
 @Composable
 fun MenuItemsPreview() {
     SantanderDevWeekTheme {
-        MenuItems(features = Mocks.featureList)
+        MenuItems(features = mockSantander.features)
     }
 }
