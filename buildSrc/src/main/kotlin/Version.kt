@@ -1,9 +1,9 @@
 object Version {
     const val gradle_version = "7.3.1"
-    const val gradle_plugin_version = "1.7.20"
+    const val gradle_plugin_version = "1.8.10"
     const val gradle_plugin_tools_version = "7.3.1"
 
-    const val kotlin_version = "1.5.31"
+    const val kotlin_version = "1.7.1"
     const val core_ktx_version = "1.10.1"
     const val arch_core_testing_version = "2.1.0"
     const val appcompat_version = "1.5.1"
